@@ -1,0 +1,55 @@
+# Build & output directories
+**/bin/
+**/obj/
+artifacts/
+dist/
+build/
+out/
+x64/
+x86/
+Debug/
+Release/
+packages/
+.vs/
+ipch/
+
+# Compiled binaries and intermediates
+*.dll
+*.exe
+*.lib
+*.pdb
+*.ipdb
+*.obj
+*.iobj
+*.ilk
+*.exp
+*.pch
+*.idb
+*.res
+*.aps
+*.msi
+*.nupkg
+*.tlog
+*.lastbuildstate
+*.cache
+*.log
+
+# Visual Studio / IDE user files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.db
+*.opendb
+
+# Python & OS clutter
+__pycache__/
+*.py[cod]
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.bak
+*.tmp
+*.swp
