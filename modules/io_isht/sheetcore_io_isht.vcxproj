@@ -17,7 +17,7 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)include;$(SheetCoreRoot)modules\core\include;$(SheetCoreRoot)modules\document\include;$(SheetCoreRoot)modules\storage\include;$(SheetCoreRoot)..\iDoc\modules\storage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)include;$(SheetCoreRoot)modules\core\include;$(SheetCoreRoot)modules\document\include;$(SheetCoreRoot)modules\storage\include;$(SheetCoreRoot)..\..\idoc\iDoc.Storage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -34,7 +34,7 @@
   <ItemGroup>
     <ClInclude Include="include\sheetcore\io_isht\isht_codec.hpp" />
     <ClCompile Include="src\isht_codec.cpp" />
-    <ClCompile Include="..\..\..\iDoc\modules\storage\src\container\crc64.cpp" />
+    <ClCompile Include="$(SheetCoreRoot)..\..\idoc\iDoc.Storage\src\container\crc64.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 </Project>

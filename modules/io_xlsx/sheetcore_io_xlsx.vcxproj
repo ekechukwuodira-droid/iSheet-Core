@@ -17,7 +17,7 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)include;$(SheetCoreRoot)modules\core\include;$(SheetCoreRoot)modules\document\include;$(SheetCoreRoot)modules\storage\include;$(SheetCoreRoot)..\iDoc\modules\storage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)include;$(SheetCoreRoot)modules\core\include;$(SheetCoreRoot)modules\document\include;$(SheetCoreRoot)modules\storage\include;$(SheetCoreRoot)..\..\idoc\iDoc.Storage\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
